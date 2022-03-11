@@ -1,0 +1,53 @@
+body{
+    margin: auto;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+
+.logo {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    right: 45%;
+    width: 10%;
+    font-size: 100%;
+
+}
+h1 {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    font-size: 400%;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 37%;
+    width: 100%;
+    font-size: 400%;
+  
+  }
+
+  h3 { 
+    color: white;
+    text-align: right;
+    position:absolute;
+    top: 52%;
+    right: 25%;
+    width: 80%;
+    font-size: 150%;
+  }
+.mouse {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 107%;
+    right: 48%;
+    width: 2%;
+}
