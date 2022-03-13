@@ -5,13 +5,42 @@ $(document).ready(function(){
       var email = $("input#email").val();
       var message = $("input#message").val();
       if (name && email){
-        alert ("HI " + name + ", we have received your message and will get back to you as soon as possible.");
-      } 
+        alert ("HI " + name + ", we have received your message and we'll get back to you as soon as possible.");
+      }
       else {
         alert("Please enter your name and email!");
       }
       //console.log(message);
     })});
+
+    $(document).ready(function(){
+    
+        $(".btn_1").click(function(){ 
+            $("p.p1").show();
+            $(".btn_1").hide(); 
+        });
+        $("p.p1").click(function(){
+            $("p.p1").hide();
+            $(".btn_1").show(); 
+        });
+         $(".btn_2").click(function(){
+             $("p.p2").show();   
+             $(".btn_2").hide();
+         });
+         $("p.p2").click(function(){
+             $("p.p2").hide();
+             $(".btn_2").show();
+         });
+         $(".btn_3").click(function(){
+             $("p.p3").show();   
+             $(".btn_3").hide();
+         });
+         $("p.p3").click(function(){
+            $("p.p3").hide();
+             $(".btn_3").show();
+         }); 
+      });
+    
 
         
     

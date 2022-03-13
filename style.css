@@ -102,15 +102,13 @@ h4 {
     font-size:120%;
     display: block;
     text-align: center;
-    width: 60%;    
+    width: 60%;
 }
-.content .box .p1, .p3{
+.content .box .p1, .p2, .p3{
     display: none; 
-    font-size: 15px;
-}
-.content .box .p2{
-    display: none;
     font-size: 20px;
+    right: 100px;
+
 }
 
 .port{
