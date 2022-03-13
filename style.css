@@ -92,22 +92,22 @@ h4 {
     display: block;
     text-align: center;
     float:right;
-    left:16%;
+    left:40%;
     bottom: 14%;
-    margin: 50px;
+    margin: 85px;
     overflow: hidden;
 }
 .content .box .design, .dev, .product{
     transition: 1s;
-    font-size:120%;
+    font-size:130%;
     display: block;
     text-align: center;
-    width: 60%;
+    width: 50%;
 }
 .content .box .p1, .p2, .p3{
     display: none; 
     font-size: 20px;
-    right: 100px;
+    right: 300px;
 
 }
 
