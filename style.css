@@ -3,8 +3,6 @@ body{
     box-sizing: border-box;
     background-size: cover;
 }
-
-
 .logo {
     color: white;
     text-align: center;
@@ -96,6 +94,18 @@ h4 {
     padding-top: 5px;
     font-size: xx-large;
 }
+.content .box .design, .dev, .product{
+    transition: 1s;
+    font-size:16px;
+    display: block;
+    text-align: center;
+    width: 50%;
+}
+.Prd, .dev1, .des{
+    padding:2px ;
+    font-size: 20px;
+    font-weight: 500;
+}
 .content{
     width: 1200px;
     height: 300px;
@@ -108,25 +118,16 @@ h4 {
     display: block;
     text-align: center;
     float:right;
-    left:40%;
+    left:35%;
     bottom: 14%;
     margin: 85px;
     overflow: hidden;
 }
-.content .box .design, .dev, .product{
-    transition: 1s;
-    font-size:130%;
-    display: block;
-    text-align: center;
-    width: 50%;
-}
 .content .box .p1, .p2, .p3{
     display: none; 
     font-size: 20px;
-    right: 300px;
-
+    right: 20%;
 }
-
 .port{
     text-align: center;
     font-size: xx-large;
