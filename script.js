@@ -5,7 +5,7 @@ $(document).ready(function(){
       var email = $("input#email").val();
       var message = $("input#message").val();
       if (name && email){
-        alert ("HI " + name + ", we have received your message and we'll get back to you as soon as possible.");
+        alert ("HI " + name + ", we have received your message.Thank you for reaching out to us.");
       }
       else {
         alert("Please enter your name and email!");
