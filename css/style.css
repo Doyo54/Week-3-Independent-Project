@@ -13,7 +13,6 @@ body{
     right: 42%;
     width: 10%;
     font-size: 100%;
-
 }
 .mouse{
     color: white;
@@ -46,16 +45,14 @@ h1 {
     width: 105%;
     font-size: 400%;
 }
-
 h2 {
     color: white;
     text-align: center;
+    position: absolute;
     top: 40%;
     width: 105%;
     font-size: 400%;
-  
   }
-
   h3 { 
     color: white;
     text-align: right;
@@ -65,14 +62,12 @@ h2 {
     width: 80%;
     font-size: 150%;
   }
-
 .about{
     text-align: center;
     height: 390px;
     padding: 30px;
     line-height: 200%;
     font-size: x-large;
-
 }
 h4 {
     text-align: center;
@@ -154,11 +149,7 @@ h4 {
     display: inline;
     width: 32%;
     padding: 10px;
-    
 }
-.col-sm-1:hover .overlay {
-    opacity: 1;
-  }
 .col-sm-1 .Port1,.Port2,.Port3,.Port4,.Port5,.Port6,.Port7,.Port8{
     display: none;
     color: white;
@@ -170,7 +161,6 @@ h4 {
     text-align: center;
     font-size: 30px;
     padding: 0%;
-
   }
 .contact {
    text-align: center;
@@ -215,7 +205,6 @@ h4 {
     right: 10%;
     width: 80%;
     font-size: 300%;
-
 }
 .submit {
     position:absolute;

@@ -13,42 +13,42 @@ $(document).ready(function(){
       //console.log(message);
     })});
 
-    $(document).ready(function(){
+  $(document).ready(function(){
     
-        $(".btn_1").click(function(){ 
-            $("p.p1").show();
+      $(".btn_1").click(function(){ 
+         $("p.p1").show();
             $(".btn_1").hide(); 
         });
-        $("p.p1").click(function(){
-            $("p.p1").hide();
+      $("p.p1").click(function(){
+         $("p.p1").hide();
             $(".btn_1").show(); 
         });
-         $(".btn_2").click(function(){
-             $("p.p2").show();   
+      $(".btn_2").click(function(){
+          $("p.p2").show();   
              $(".btn_2").hide();
          });
-         $("p.p2").click(function(){
-             $("p.p2").hide();
+      $("p.p2").click(function(){
+          $("p.p2").hide();
              $(".btn_2").show();
          });
-         $(".btn_3").click(function(){
-             $("p.p3").show();   
+      $(".btn_3").click(function(){
+          $("p.p3").show();   
              $(".btn_3").hide();
          });
-         $("p.p3").click(function(){
-            $("p.p3").hide();
+      $("p.p3").click(function(){
+          $("p.p3").hide();
              $(".btn_3").show();
          }); 
       });
 
-      $(document).ready(function(){
-        $("#work1").mouseover(function(){
+    $(document).ready(function(){
+      $("#work1").mouseover(function(){
           $("p.Port1").show();
         }).mouseout(function(){
           $("p.Port1").hide();
         });
       });
-      $(document).ready(function(){
+    $(document).ready(function(){
         $("#work2").mouseover(function(){
           $("p.Port2").show();
         }).mouseout(function(){
